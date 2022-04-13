@@ -2,6 +2,9 @@ version: "3.9"
 
 services:
   api:
-    image: lukem76/express
+    image: lukem76/express:0.0.2
+    environment:
+      PORT: 4000
     ports:
-      - 3000:3000
+      - 4000:4000
+    
